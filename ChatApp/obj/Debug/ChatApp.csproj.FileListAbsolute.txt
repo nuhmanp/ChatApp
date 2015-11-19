@@ -1,0 +1,13 @@
+c:\users\user\documents\visual studio 2013\Projects\ChatApp\ChatApp\bin\Debug\ChatApp.exe.config
+C:\Users\User\Documents\Visual Studio 2013\Projects\ChatApp\ChatApp\obj\Debug\ChatApp.csprojResolveAssemblyReference.cache
+C:\Users\User\Documents\Visual Studio 2013\Projects\ChatApp\ChatApp\obj\Debug\ChatApp.Form1.resources
+C:\Users\User\Documents\Visual Studio 2013\Projects\ChatApp\ChatApp\obj\Debug\ChatApp.Properties.Resources.resources
+C:\Users\User\Documents\Visual Studio 2013\Projects\ChatApp\ChatApp\obj\Debug\ChatApp.csproj.GenerateResource.Cache
+C:\Users\User\Documents\Visual Studio 2013\Projects\ChatApp\ChatApp\bin\Debug\ChatApp.exe
+C:\Users\User\Documents\Visual Studio 2013\Projects\ChatApp\ChatApp\bin\Debug\ChatApp.pdb
+C:\Users\User\Documents\Visual Studio 2013\Projects\ChatApp\ChatApp\bin\Debug\Parse.dll
+C:\Users\User\Documents\Visual Studio 2013\Projects\ChatApp\ChatApp\bin\Debug\Parse.NetFx45.dll
+C:\Users\User\Documents\Visual Studio 2013\Projects\ChatApp\ChatApp\bin\Debug\Parse.xml
+C:\Users\User\Documents\Visual Studio 2013\Projects\ChatApp\ChatApp\bin\Debug\Parse.NetFx45.xml
+C:\Users\User\Documents\Visual Studio 2013\Projects\ChatApp\ChatApp\obj\Debug\ChatApp.exe
+C:\Users\User\Documents\Visual Studio 2013\Projects\ChatApp\ChatApp\obj\Debug\ChatApp.pdb
