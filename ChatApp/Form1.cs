@@ -22,7 +22,7 @@ namespace ChatApp
             textBox1.Hide();
             textBox2.Hide();
             button1.Hide();
-            ParseClient.Initialize("xKZ723Ld11AQvfu7jc6zDQ8cUbaZXBmI7U8Eiisg", "gPdAkumwGTKBB4E2fmKHIpJyWTQJZvgryKmx4YZk");
+            ParseClient.Initialize("HvXyE56N4LRgo2b18YDdwmtrunSzoFGKhnn4Mu95", "HBYqK80yKhFnx6BNSxo668uijMIppMRXV3DgmwdJ");
             System.Windows.Forms.Timer t = new System.Windows.Forms.Timer();
 
 
@@ -62,17 +62,26 @@ namespace ChatApp
         public async void updateText()
         {
             //textBox1.Text = textBox1.Text + "xcvbxcb";
-            ParseQuery<ParseObject> query = ParseObject.GetQuery("Post");
+            ParseQuery<ParseObject> query = ParseObject.GetQuery("ChatData");
             IEnumerable<ParseObject> horses = await query.FindAsync();
             textBox1.ForeColor = System.Drawing.Color.Pink;
             textBox1.ReadOnly = true;
             foreach (ParseObject horse in horses)
             {
-                string name = horse.Get<string>("name");
-                string message = horse.Get<string>("message");
+                try
+                {
+                    string name = horse.Get<string>("userName");
+                    string message = horse.Get<string>("chat");
+                    textBox1.Text = textBox1.Text + "\r\n" + name + ": " + message;
+                }
+                catch (Exception e)
+                {
+
+                }
+
                 //count++;
                 //Debug.WriteLine("Horse: " + name);
-                textBox1.Text = textBox1.Text + "\r\n" + name + ": " + message;
+               
             }
             textBox1.SelectionStart = textBox1.Text.Length;
             textBox1.ScrollToCaret();
