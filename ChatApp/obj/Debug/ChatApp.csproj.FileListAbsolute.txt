@@ -1,5 +1,4 @@
 c:\users\user\documents\visual studio 2013\Projects\ChatApp\ChatApp\bin\Debug\ChatApp.exe.config
-C:\Users\User\Documents\Visual Studio 2013\Projects\ChatApp\ChatApp\obj\Debug\ChatApp.csprojResolveAssemblyReference.cache
 C:\Users\User\Documents\Visual Studio 2013\Projects\ChatApp\ChatApp\obj\Debug\ChatApp.Form1.resources
 C:\Users\User\Documents\Visual Studio 2013\Projects\ChatApp\ChatApp\obj\Debug\ChatApp.Properties.Resources.resources
 C:\Users\User\Documents\Visual Studio 2013\Projects\ChatApp\ChatApp\obj\Debug\ChatApp.csproj.GenerateResource.Cache
